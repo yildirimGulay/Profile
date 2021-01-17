@@ -1,0 +1,73 @@
+
+#container{
+    width:100%;
+    height:600px;
+    background-attachment: fixed;
+    background-size: 100% 100% ;
+    background-image:url(img/wall2.jpg);
+    background-repeat: no-repeat;
+    
+ }
+
+main{
+    width:500px;
+    height: 400px;
+    background-image:url(img/wall.jpg) ;
+    background-size: 600px;
+    background-repeat: no-repeat;
+    margin: 120px 0 0 430px;
+    position: relative;
+    z-index: 2;
+    float: left;
+    box-shadow: 5px 5px 3px #bbbbbb;
+    border-radius: 10px;
+  
+}
+
+header { 
+    background-image: url(img/avataaars2.png) ;
+    background-size:200px ;
+    background-repeat: no-repeat;
+    width:200px;
+    height:200px;
+    border-radius: 100px;
+    position: relative;
+    z-index: 3;
+    margin: -70px 0 0 145px;
+    float: left;
+
+}
+section {
+   max-width: 350px;
+    max-height: 60px;
+    float: left;
+    text-align: center;
+    line-height:40px ;
+    margin: 60px 0 0 90px;
+    font-size: 30px ;
+    color:#20212A;
+    font-weight: 1000;
+    
+}
+details{ 
+    float:left; 
+    margin: 180px 0 0px -235px; 
+    width: 100px; height: 20px;  
+    border:none;
+}
+summary{ 
+    padding-top: 10px;
+    height: 30px;
+    border: none;
+    box-shadow: 2px 2px 3px #bbbbbb;
+    cursor: pointer;
+    color:#236a91;
+    font-size: 20px;
+  
+  }
+  details p{
+      font-size: 20px;
+      margin: 0px 0 0 -25px;
+      color:#20212A;
+      
+  }
